@@ -1,3 +1,3 @@
-# Endless Service
+# Advanced Covid Tracker Android Application
 
-This is just a project showing how to run an Android Foreground Service that will never stop running.
+This is an android application where you can get notification about the availability of vaccines in your area.
