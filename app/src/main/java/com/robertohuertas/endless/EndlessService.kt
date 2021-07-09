@@ -9,10 +9,11 @@ import android.os.IBinder
 import android.os.PowerManager
 import android.os.SystemClock
 import android.provider.Settings
-import android.support.v4.app.NotificationCompat
-import android.support.v4.app.NotificationManagerCompat
+
 import android.util.Log
 import android.widget.Toast
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
 import java.text.SimpleDateFormat
 import java.util.*
 import com.github.kittinunf.fuel.Fuel

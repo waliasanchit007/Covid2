@@ -2,10 +2,11 @@ package com.robertohuertas.endless
 
 import android.content.Intent
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun actionOnService(action: Actions) {
+    fun actionOnService(action: Actions) {
         if (getServiceState(this) == ServiceState.STOPPED && action == Actions.STOP) return
         Intent(this, EndlessService::class.java).also {
             it.action = action.name
@@ -44,5 +45,6 @@ class MainActivity : AppCompatActivity() {
             startService(it)
         }
     }
+
    var  dis = "512"
 }

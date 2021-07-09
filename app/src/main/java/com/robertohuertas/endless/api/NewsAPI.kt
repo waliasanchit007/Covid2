@@ -20,6 +20,14 @@ interface NewsAPI {
         dateid: String = "31-03-2021"
 
     ): Response<EndlessService.Covid>
+
+
+
+
+
+
+
+
 }
 class RetrofitInstance {
     companion object {
